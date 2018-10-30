@@ -11,8 +11,3 @@ Most of the original splunk webhook was retained, modifications have been made t
 *alerts_discord.py*
 
 This file is where the modifications took places, since Discord would not accept an entire payload by Splunk my solution was to load the json payload, extract the fields I wanted and insert those results into another payload which I then rencoded and sent in to Discord
-
-test
-test
-est
-
